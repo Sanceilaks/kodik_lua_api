@@ -7,11 +7,12 @@
     author = { name = "voidptr_t" },
     homepage = "https://github.com/SanceiLaks/kodik_lua_api",
     dependencies = {
-      "creationix/coro-http"
+      "creationix/coro-http",
+      "creationix/base64"
     },
     files = {
       "libs/api.lua",
-      "!test*"
+      "!test*",
     }
   }
   
